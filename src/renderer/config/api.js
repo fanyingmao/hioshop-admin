@@ -1,7 +1,7 @@
 // const rootUrl = 'http://www.hiolabs.com:8360/admin/';
-const rootUrl = 'http://127.0.0.1:8360/admin/';
+// const rootUrl = 'http://127.0.0.1:8360/admin/';
 // const rootUrl = 'http://server:8360/admin/';
-
+const rootUrl = 'https://anshun.devfan.cn:1443/admin/';
 const api = {
     rootUrl : rootUrl,
     // express: {
@@ -11,7 +11,7 @@ const api = {
     //     request_url: 'http://api.kdniao.cc/Ebusiness/EbusinessOrderHandle.aspx'
     // },
 	// 4.19更新，物流查询不需要以上配置，只需要在server的config配置阿里云物流接口就可以
-    qiniu: 'http://up.qiniu.com',
+    qiniu: 'http://up-z2.qiniu.com',
     // 请根据自己创建的七牛的区域进行设置：
     // https://developer.qiniu.com/kodo/manual/1671/region-endpoint
 };
